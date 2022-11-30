@@ -1,4 +1,4 @@
-import imaplib
+                import imap ye
 
 from imbox.imap import ImapTransport
 from imbox.messages import Messages
@@ -102,4 +102,4 @@ class Imbox:
                               **kwargs)
 
     def folders(self):
-        return self.connection.list()
+            return self.connection.list()full-size 
